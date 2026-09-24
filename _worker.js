@@ -8,7 +8,7 @@ import { connect } from 'cloudflare:sockets';
 
 let subPath = 'link';     // 节点订阅路径,不修改将使用uuid作为订阅路径
 let password = '123456';  // 主页密码,建议修改或添加 PASSWORD环境变量
-let proxyIP = 'a86905391db1e25303b7a1cf86a59a54.proxyip.fast-ip.eu.org:443';  // proxyIP 格式：ip、域名、ip:port、域名:port等,没填写port，默认使用443
+let proxyIP = '147.139.189.225:443';  // proxyIP 格式：ip、域名、ip:port、域名:port等,没填写port，默认使用443
 let yourUUID = '124799ca-66d8-470b-af7c-1823680ac13c'; // UUID,建议修改或添加环境便量
 let disabletro = false;  // 是否关闭trojan, 设置为true时关闭，false开启 
 
