@@ -1,6 +1,6 @@
 import { connect } from 'cloudflare:sockets';
 
-let proxyIP = '147.139.189.225:443';  // proxyIP，也可以是socks5或http
+let proxyIP = '16.79.55.124:443';  // proxyIP，也可以是socks5或http
 let yourUUID = '124799ca-66d8-470b-af7c-1823680ac13c';  // UUID
 
 // CDN 
